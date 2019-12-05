@@ -1,0 +1,42 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Amrita
+tagline:          'QA 2 QE'
+description:      'Assuring Quality!'
+url:              https://amr1ta.github.io
+baseurl:          '/'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Amrita Mahapatra'
+  # url:            https://twitter.com/fongandrewc
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Sidebar link settings
+sidebar_home_link:  false
+sidebar_nav_link:  false
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+
+
+# Social Links
+self_github:	'https://github.com/amr1ta'
+self_linkedin:	'https://www.linkedin.com/in/amrita-mahapatra/'
+self_email: 'mailto:amrita.mahapatra11@gmail.com'
