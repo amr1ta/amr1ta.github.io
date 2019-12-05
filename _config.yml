@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Amrita
+title:            Amrita Mahapatra
 tagline:          'QA 2 QE'
-description:      'Assuring Quality!'
+description:      'Quality Assured!'
 url:              https://amr1ta.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
